@@ -1,9 +1,6 @@
 from matplotlib.colors import LogNorm
 import streamlit as st
 import math as math
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
 from scipy.stats import norm
 
 stock_price = st.number_input(label='stock_price', value= 100)
